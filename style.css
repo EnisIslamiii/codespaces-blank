@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+  
+  header {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    margin: 0;
+    max-block-size: 100%;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,1) 35%, rgba(255,55,0,1) 100%);  }
+  .logo {
+    margin-right: auto;
+    padding: 25px;
+  }
+  header nav ul li a {
+    text-decoration:none;
+    color: black;
+    margin: 30px;
+    padding: 8px;
+  }
+  .search{
+       padding: 30px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .nav-bar{
+    display: flex;
+    align-items:flex-end ;
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .nav-links a:hover{
+    border: 1 px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    background-color:white;
+    color: green;
+
+  }
+  .nav-links ul{
+    list-style-type: none;
+  }
+  .nav-links li{
+    display: inline;
+
+  }
+
+  #sneakers ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #sneakers ul li {
+    flex: 1;
+    margin: 0.5em;
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  #sneakers ul li img {
+    max-width: 80%;
+    height: 65%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em 0;
+  }
